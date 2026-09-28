@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app/main.py": {
+      "includeFiles": "data/kc_house_data.csv",
+      "maxDuration": 60
+    }
+  }
+}

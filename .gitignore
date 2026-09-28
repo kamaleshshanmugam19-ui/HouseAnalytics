@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.tsbuildinfo
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/tests/__pycache__/
+backend/models/*.joblib
+.pytest_cache/
+.vercel
+.env*
